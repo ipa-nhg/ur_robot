@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+	<!-- upload robot_description -->
+    <include file="$(find ur_hardware_config)/ur_arm/urdf/upload_arm_ur.launch" />
+
+	<!-- start robot_state_publisher -->
+	<node pkg="robot_state_publisher" type="state_publisher" name="robot_state_publisher"/>
+
+    <!-- start arm -->
+    <include file="$(find ur_bringup)/components/ur_arm.launch" />
+
+</launch>

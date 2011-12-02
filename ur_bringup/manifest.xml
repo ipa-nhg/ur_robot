@@ -1,0 +1,14 @@
+<package>
+  <description brief="ur_bringup">
+
+     ur_bringup
+
+  </description>
+  <author>Nadia Hammoudeh</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/ur_bringup</url>
+
+</package>
+
+
